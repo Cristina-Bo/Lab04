@@ -38,6 +38,9 @@ public class CorsoDAO {
 
 				// Crea un nuovo JAVA Bean Corso
 				// Aggiungi il nuovo oggetto Corso alla lista corsi
+				
+				Corso corso = new Corso(codins, numeroCrediti, nome, periodoDidattico);
+					 corsi.add(corso);
 			}
 
 			return corsi;
